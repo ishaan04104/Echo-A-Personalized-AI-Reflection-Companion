@@ -6,9 +6,9 @@ import google.generativeai as genai
 
 # === CONFIGURATION ===
 USER_NAME = "Aryan"
-HISTORY_FILE = "/Users/ishaanpothapragada/Documents/Coding/echos/user_data/aryan.json"
-NOTES_FILE = "/Users/ishaanpothapragada/Documents/Coding/echos/notes/aryan_notes.txt"
-AUDIO_FILE = "/Users/ishaanpothapragada/Documents/Coding/echos/echo_aryan.wav"
+HISTORY_FILE = "/path/"
+NOTES_FILE = "/path/"
+AUDIO_FILE = "/path/"
 
 # Initialize TTS only once
 TTS_MODEL = "tts_models/en/vctk/vits"
@@ -16,7 +16,7 @@ tts = TTS(model_name=TTS_MODEL)
 DEFAULT_SPEAKER = tts.speakers[42]  # female, warm voice
 
 # Gemini setup
-genai.configure(api_key="AIzaSyCT_jd5mwKnlIO0_hX4kKc8oToRyzU_fXg")  # Replace with your real key
+genai.configure(api_key="################")  # Replace with your real key
 
 # === UTILITIES ===
 def load_user_history():
