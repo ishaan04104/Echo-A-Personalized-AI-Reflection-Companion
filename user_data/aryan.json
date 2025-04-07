@@ -1,0 +1,22 @@
+{
+    "history": [
+        {
+            "title": "The Power of Focus",
+            "genre": "self-growth",
+            "date": "2025-04-02",
+            "emotion": "motivated"
+        },
+        {
+            "title": "The Power of Discipline",
+            "genre": "motivational",
+            "date": "2025-04-07",
+            "emotion": "inspired"
+        }
+    ],
+    "goals": {
+        "monthly_goal": 5,
+        "completed": 2
+    },
+    "last_genre": "motivational",
+    "streak": 2
+}
